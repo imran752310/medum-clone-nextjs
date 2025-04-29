@@ -17,13 +17,13 @@ const categories = [
 
 export default function Categories() {
   return (
-    <section className="bg-gray-100 py-20">
+    <section className=" py-15">
       <div className="lg:w-[85%] max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         {/* Header */}
         <div className="mb-12 text-center md:text-left md:max-w-md">
           <h2 className="text-3xl md:text-4xl font-bold">Categories</h2>
           <p className="mt-4 text-gray-600">
-            Explore a wide range of topics — from programming to artificial intelligence
+            Explore a wide range of topics from programming to artificial intelligence
             and more. Find the content that inspires and informs.
           </p>
         </div>
@@ -33,7 +33,7 @@ export default function Categories() {
           {categories.map((category, index) => (
             <div
               key={index}
-              className="bg-white rounded-lg shadow-md hover:shadow-xl transition-shadow duration-300 overflow-hidden"
+              className="bg-white  shadow-md hover:shadow-xl transition-shadow duration-300 overflow-hidden"
             >
               <div className="relative w-full aspect-video">
                 <Image
@@ -44,7 +44,7 @@ export default function Categories() {
                 />
               </div>
               <div className="py-4 px-6 text-center">
-                <h3 className="text-xl font-semibold text-gray-800 hover:text-green-600 transition-colors">
+                <h3 className="text-xl  text-gray-800 hover:text-green-600 transition-colors">
                   {category.title}
                 </h3>
               </div>

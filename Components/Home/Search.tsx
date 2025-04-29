@@ -12,14 +12,14 @@ export default function Newsletter() {
   };
 
   return (
-    <div className="w-[80%] mx-auto my-22 bg-gray-100 py-16 px-10 flex flex-col md:flex-row items-center justify-between rounded-lg">
+    <div className="w-[85%] mx-auto my-22 bg-gray-100 py-16 px-10 flex flex-col md:flex-row items-center justify-between rounded-lg">
       <div className="text-left mb-4 md:mb-0 md:w-1/3">
         <h2 className="text-xl font-bold text-gray-800">Subscribe Newsletter</h2>
         <p className="text-gray-500 mt-1">Get our latest news straight into your inbox</p>
       </div>
       <form
         onSubmit={handleSubmit}
-        className="flex w-full md:w-2/3 bg-white rounded-lg shadow-md overflow-hidden"
+        className="flex w-full md:w-2/3 bg-white rounded-lg border border-gray-400 overflow-hidden"
       >
         <input
           type="email"

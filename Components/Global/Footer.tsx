@@ -120,7 +120,7 @@ const Footer = () => {
         </a>
         <a
           href="#"
-          className="text-gray-500 hover:text-gray-900 dark:hover:text-white ms-5"
+          className="text-gray-500 hover:text-gray-900  ms-5"
         >
           <svg
             className="w-4 h-4"
@@ -139,7 +139,7 @@ const Footer = () => {
         </a>
         <a
           href="#"
-          className="text-gray-500 hover:text-gray-900 dark:hover:text-white ms-5"
+          className="text-gray-500 hover:text-gray-900  ms-5"
         >
           <svg
             className="w-4 h-4"
@@ -158,7 +158,7 @@ const Footer = () => {
         </a>
         <a
           href="#"
-          className="text-gray-500 hover:text-gray-900 dark:hover:text-white ms-5"
+          className="text-gray-500 hover:text-gray-900  ms-5"
         >
           <svg
             className="w-4 h-4"

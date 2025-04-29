@@ -10,7 +10,7 @@ import BlogSidebar from "./BlogSidebar";
 
 const Blog = () => {
   return (
-    <div className="w-[90%] mx-auto my-20 px-4 md:px-6">
+    <div className="w-[90%] mx-auto my-10 px-4 md:px-6">
       {/* Blog Header */}
       <div className="mb-8">
         <h1 className="text-3xl md:text-4xl font-bold">The Medium Blog</h1>
@@ -39,7 +39,7 @@ const Blog = () => {
       <div className="flex flex-col lg:flex-row gap-8">
         {/* Main Blog Posts */}
         <div className="w-full lg:w-2/3">
-          {[1, 2, 3].map((_, i) => (
+          {[1, 2, 3, 4].map((_, i) => (
             <div key={i} className="border-b border-gray-300 pb-8 mb-8">
               {/* Author Info */}
               <div className="flex items-center gap-2 mb-4">
@@ -54,7 +54,7 @@ const Blog = () => {
                     Why Companies Are Saying Goodbye to Next.js?
                   </h2>
                   <p className="text-gray-600 mb-4">
-                    Here are the biggest enterprise technology acquisitions of 2021 so far, in reverse chronological order.
+                    Here are the biggest enterprise technology acquisitions of 2021 so far in reverse chronological order.
                   </p>
                   <div className="flex justify-between items-center text-gray-500 text-sm">
                     <div className="flex gap-5">
