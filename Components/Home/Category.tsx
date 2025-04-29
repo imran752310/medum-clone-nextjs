@@ -21,7 +21,7 @@ export default function Categories() {
       <div className="lg:w-[85%] max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         {/* Header */}
         <div className="mb-12 text-center md:text-left md:max-w-md">
-          <h2 className="text-3xl font-extrabold text-gray-800 uppercase">Categories</h2>
+          <h2 className="text-3xl md:text-4xl font-bold">Categories</h2>
           <p className="mt-4 text-gray-600">
             Explore a wide range of topics — from programming to artificial intelligence
             and more. Find the content that inspires and informs.
